@@ -1,4 +1,4 @@
-# Jogo da Memória
+# Jogo da Memória 🎮
 
 Olá saudações !
 
@@ -16,7 +16,6 @@ De que coisas você precisa para instalar o software e como instalá-lo?
 
 Independente do sistema operacional que esteja , verifique se possui o Python e sua versão instalada na sua máquina.
 
-``
 Nas depedências do projeto rodar no terminal se estiver utilizando PYTHON
 
 ```
@@ -24,25 +23,18 @@ pip install -r requirements.txt
 
 ```
 
-Crie um arquivo requirements.txt ou gere automaticamente via
+Caso você seja o cliente então peça o servidor para te informar o endereço de IP LOCAL para você atribuir e concetar-se com ele e rode o seguinte comando abaixo:
 
 ```
-pip freeze > requirements.txt
+python3 client.py
 
 ```
-
-Faça esse passo funcionar antes de seguir ! Após funcionar instale a Lib que usaremos para gerar a interatividade de interface.
-
-```
-instale a ferarmenta  PIP antes
-
-pip install PySimpleGUI
-
-
+Caso você seja o servidor que irá abrir a conexão para conectar-se com o cliente utilize o seguinte comando abaixo : 
 
 ```
+python3 server.py
 
-``
+```
 
 ### 🔩 Analise os testes de ponta a ponta
 
